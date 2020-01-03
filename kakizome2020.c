@@ -34,7 +34,7 @@ static PyModuleDef_Slot kakizome2020_slots[] = {
 };
 
 
-static struct PyModuleDef cjholiday_module = {
+static struct PyModuleDef kakizome2020_module = {
     PyModuleDef_HEAD_INIT,
     .m_name="kakizome2020",
     .m_slots=kakizome2020_slots,
@@ -42,5 +42,5 @@ static struct PyModuleDef cjholiday_module = {
 
 
 PyMODINIT_FUNC PyInit_kakizome2020(void) {
-    return PyModuleDef_Init(&cjholiday_module);
+    return PyModuleDef_Init(&kakizome2020_module);
 }
